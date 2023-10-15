@@ -2,6 +2,7 @@
 
 This module manage creation for one or more VMs on Azure.
 That VMs are isolated in a vnet and can't be accessed from internet.
+Access to that VMs is down via a hub network that must be defined.
 
 # Parameters
 
