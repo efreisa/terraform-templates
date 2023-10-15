@@ -6,7 +6,7 @@ locals {
 resource "azurerm_resource_group" "rg" {
     name = local.rg_name
     location = var.location
-    tags = var.tags
+    tags = merge({"eeia" = var.name}, var.tags) # Add eeia tag by default
 }
 
 # Manage budget

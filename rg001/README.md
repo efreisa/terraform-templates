@@ -2,6 +2,7 @@
 
 Create and manage a Resource Group.
 Will set a budget défined in *amount* and warn *contact_emails* at 90% of consumption or if forecasted amount is over 100%.
+Add *eeia* tag with the *name* parameter.
 
 # Paramaters
 
