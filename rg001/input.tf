@@ -25,3 +25,7 @@ variable "amount" {
 variable "contact_emails" {
   type = list(string)
 }
+
+variable "responsible" {
+  type = string
+}
